@@ -1,0 +1,491 @@
+/* get rid of default padding and margin */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px){
+    .general{
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+}
+}
+
+.general{
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 18px;
+    padding-top: 20px;
+    height: 65px;
+}
+.container1 .img1{
+    margin-left: 30px;
+}
+.container1 .img2{
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.container1 input{
+    width: 550px;
+    height: 50px;
+    border: 1px solid #1c1d1f;
+    background-color:  #f7f9fa;
+    border-radius: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.container1 p{
+    padding-top: 10px;
+}
+.container1 li{
+    float: left;
+    padding: 10px 5px;
+    list-style-type: none;
+}
+.container1 li a{ 
+   text-decoration: none;
+}
+.container1 li .inn{
+    padding: 10px 15px;
+    border: 1px black solid;
+    background-color: black;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.container1 li .in{
+    padding: 10px 15px;
+    border: 1px black solid;
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+}
+.container1 li .innn{
+    background-color: white; 
+    padding: 10px; 
+    border: 1px black solid;
+    color: black;
+    font-weight: 900;
+}
+.nice2{
+    display: flex;
+    flex-direction: column;
+    background: url(img/back.jpg) no-repeat ;
+    height: 430px;
+    margin:0px 5px 0px 5px;
+}
+/* section2 */
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 380px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.container2 h1{
+    font-size: 35px;
+    padding-bottom: 8px;
+}
+.container2 p{
+    font-size: 20px;
+}
+.container3 h2{
+    font-size: 36px;
+    padding-left: 28px;
+    padding-bottom: 10px;
+}
+.container3 p{
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 20px;
+    padding-left: 28px;
+}
+.container3 h3{
+    padding-left: 28px;
+}
+.no{ 
+display: flex;
+list-style-type: none;
+gap: 30px;
+font-size: 18px;
+padding: 10px 28px;
+}
+.no a{
+    text-decoration: none;
+    color: #1c1d1fc7;
+    font-weight: bolder;
+}
+.plenty{
+    width: 95%;
+    margin: auto;
+    border: 1px rgba(0, 0, 0, 0.253) solid;
+    padding: 35px 10px;
+}
+.plenty h3{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.plenty button{
+    padding: 10px;
+    margin: 10px 0px 15px 29px;
+    color:black;
+    background-color: #ffffff;
+    font-weight: bolder;
+    border: 0.5px black solid;
+}
+.all ul{
+    display: flex;   
+}
+
+.all ul li{
+    list-style-type: none;
+}
+.all .everyy h3{
+    font-size: 16px;   
+}
+.all a{
+    text-decoration: none;
+    color: black;  
+    line-height: 2px; 
+}
+.every{
+    padding-left: 18px;
+}
+.alll p{
+    font-size: 14px;
+}
+
+.everyyy .up{
+    padding-left: 30px;
+    font-weight: bolder;
+}
+.everyyy .down{
+    padding-left: 10px;
+}
+.everyyy .upp{
+    font-weight: bolder;
+}
+.everyyy .downn{
+    padding-left: 10px;
+}
+.best{
+    margin: 10px 0px 0px 0px;
+    
+}
+.best a{
+    background-color: rgb(226, 198, 126);
+    color: black;
+    margin: 10px 28px;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 5px;
+}
+/* middle */
+.small{
+    width: 100%;
+    height: 90px;
+    background-color: #f7f9fa;
+    padding-top: 10px;
+    margin-top: 60px;
+}
+.smaller{
+    display: flex;
+    margin-left: 30px;
+}
+.smaller p{
+    padding-right: 30px;
+    margin: auto;
+    width: 300px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 8px;
+    font-family:  udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.smaller span{
+    padding: 18px 0px;
+    
+}
+.smaller i{
+    padding: 12px;
+    background-color:rgb(173, 188, 194);
+    border-radius: 30px;
+}
+.plenty2{
+    width: 95%;
+    margin: auto;
+    padding: 35px 10px;
+    margin-top: 25px;
+}
+.do p{
+    font-size: 13px;
+}
+.plenty2 h3{
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+
+}
+.plenty2 .every{
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+.plenty2 .best a{
+    background-color: rgb(226, 198, 126);
+    color: black;
+    margin: 10px 0px;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 5px;
+}
+.future{
+    width: 100%;
+    height: 500px;
+    background-color: #f7f9fa ;
+    margin-top: 30px;
+}
+.future h3{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.future .one{  
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 200px;
+    gap: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+.owner{
+    display: flex;
+}
+.this{
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size:1.4rem ;
+    margin-bottom: 20px;
+}
+.one a{
+    font-weight: 900;
+    color: #5624d0;
+}
+.ok{
+    margin-bottom: 20px;
+}
+.future button{
+    margin: 90px 30px;
+    position: relative;
+    align-items: center;
+    border: 1px black solid;
+    cursor: pointer;
+    display: inline-flex;
+    min-width: 8rem;
+    padding: 10px 1rem;
+    justify-content: center;
+    white-space: nowrap;
+}
+.so{
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 0.95rem;
+    color: black;  
+}
+.future a{
+    text-decoration: none;
+}
+.get{
+    width: 100%;
+    height: 540px;
+    display: flex;
+}
+.get1{
+    width: 300px;
+    padding-top: 70px;
+    padding-left: 220px;
+    padding-right: 180px;
+}
+.get2{
+    width: 500px;
+    padding-top: 170px;
+}
+.get2 h2{
+    padding: 0px 0px 20px 0px;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.25;
+    letter-spacing: -.05rem;
+}
+.get p{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size:  1.5rem;
+    margin-bottom: 20px;
+}
+
+.get3{
+    background-color: black;
+    padding: 14px;
+    width: 150px;
+}
+.get3 a{
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+}
+.car{
+    width: 100%;
+    height: 200px;
+    background-color: #f7f9fa;
+    text-align: center;
+}
+.car2 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 140px;
+    padding-left: 40px;
+    padding-top: 28px;
+}
+.car1{
+    padding-top: 40px;
+}
+.car1 h3{
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+.car1 p{
+    font-size: 17px;
+}
+.bag{
+    display: flex;
+    width: 100%;
+    height: 580px;
+}
+.bag1{
+    width: 400px;
+    padding: 190px 90px 20px 220px;
+}
+.bag1 p{
+    font-size: 21px;
+}
+.bag1 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-weight: 700;
+}
+.alone{
+    margin-top: 30px;
+}
+.bag2{
+    display: flex;
+}
+.bag2 span{
+    padding-top: 3px;
+    padding-left: 6px;
+    font-size: 30px;
+    color: #5624d0;
+    padding-bottom: 20px;
+}
+.bag3{
+    padding-top: 95px;
+}
+.can{
+    width: 100%;
+    height: 480px;
+    display: flex;
+}
+.con{
+    width: 400px;
+    padding-top: 70px;
+    padding-left: 80px;
+}
+.can1{
+    padding-left: 230px;
+}
+.can2 h2{
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.can2 p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.can3 a{
+    background-color: #1c1d1f;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.can3{
+    margin-top: 18px;
+}
+.when{
+    width: 100%;
+    height: 220px;
+}
+.when{
+    display: flex;
+    gap: 180px;
+    line-height: 1.8rem;
+    padding-left: 55px;
+    padding-top: 30px; 
+}
+.when ul{
+    list-style-type: none;
+}
+.when a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.black{
+    background-color:black;
+}
+.final{
+    padding-left: 200px;
+    border:1px wheat solid ;
+    padding: 10px 50px;
+    margin-left: 180px;
+}
+.mine{
+    padding-left: 58px;
+    color: white;
+}
+.last{
+    margin-left:  1170px;
+    color: #ffffff;
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+/* font awesome */
+.fa fa-play {
+    position: absolute;
+    pointer-events: none;
+  }
